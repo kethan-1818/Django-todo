@@ -1,0 +1,125 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[01/Jun/2024 23:06:38] "GET /todos/ HTTP/1.1" 200 4094
+[01/Jun/2024 23:06:38] "GET /static/css/style.css HTTP/1.1" 304 0
+Performing system checks...
+
+June 01, 2024 - 23:06:27
+Django version 5.0.6, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[01/Jun/2024 23:07:35] "GET /todos/ HTTP/1.1" 200 4094
+[01/Jun/2024 23:07:48] "POST /todos/22/update HTTP/1.1" 302 0
+[01/Jun/2024 23:07:48] "POST /todos/22/update HTTP/1.1" 302 0
+[01/Jun/2024 23:07:49] "GET /todos/ HTTP/1.1" 200 4094
+Performing system checks...
+
+June 01, 2024 - 23:07:34
+Django version 5.0.6, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+June 01, 2024 - 23:08:35
+Django version 5.0.6, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[01/Jun/2024 23:09:08] "GET /todos/ HTTP/1.1" 200 4094
+[01/Jun/2024 23:12:40] "GET /todos/ HTTP/1.1" 200 4094
+[01/Jun/2024 23:12:40] "GET /static/css/style.css HTTP/1.1" 304 0
+[01/Jun/2024 23:17:59] "GET /todos/ HTTP/1.1" 200 4094
+[01/Jun/2024 23:17:59] "GET /static/css/style.css HTTP/1.1" 304 0
+[01/Jun/2024 23:36:36] "GET /todos/ HTTP/1.1" 200 4094
+[01/Jun/2024 23:36:37] "GET /static/css/style.css HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/home/ubuntu/dk/django-todo/manage.py", line 10, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/dk/django-todo/manage.py", line 21, in <module>
+    main()
+  File "/home/ubuntu/dk/django-todo/manage.py", line 12, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+June 05, 2024 - 18:11:37
+Django version 4.2.11, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2024 18:11:45] "GET /todos/ HTTP/1.1" 200 4094
+[05/Jun/2024 18:18:08] "GET /todos/ HTTP/1.1" 200 4094
+[05/Jun/2024 18:19:49] "GET /todos/ HTTP/1.1" 200 4094
+[05/Jun/2024 18:22:40] "GET / HTTP/1.1" 302 0
+[05/Jun/2024 18:22:55] "GET / HTTP/1.1" 302 0
+[05/Jun/2024 18:22:56] "GET /todos HTTP/1.1" 301 0
+[05/Jun/2024 18:22:56] "GET /todos/ HTTP/1.1" 200 4094
+Not Found: /favicon.ico
+[05/Jun/2024 18:22:59] "GET /favicon.ico HTTP/1.1" 404 2573
+Not Found: /http:/api.ipify.org/
+[05/Jun/2024 18:23:03] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[05/Jun/2024 18:23:06] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[05/Jun/2024 18:26:22] "GET /todos/ HTTP/1.1" 200 4094
+[05/Jun/2024 18:30:31] "GET /todos/ HTTP/1.1" 200 4101
+[05/Jun/2024 18:31:28] "GET /todos/ HTTP/1.1" 200 4094
+[05/Jun/2024 18:31:59] "GET /todos/ HTTP/1.1" 200 4092
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Error: That port is already in use.
+[05/Jun/2024 18:36:14] "GET / HTTP/1.1" 302 0
+[05/Jun/2024 18:36:14] "GET /todos/ HTTP/1.1" 200 4092
+[05/Jun/2024 18:38:39] "GET /todos/ HTTP/1.1" 200 4092
